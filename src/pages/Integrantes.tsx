@@ -1,13 +1,13 @@
 import React from 'react';
-import './Integrantes.css';
+import styles from '../styles/Integrantes.module.css';
 import integrante1 from '../assets/integrante1.png';
 import integrante2 from '../assets/integrante2.jpg';
 import integrante3 from '../assets/integrante3.jpg';
 
 const Integrantes: React.FC = () => {
   return (
-    <div className="integrantes-container">
-      <div className="integrante">
+    <div className={styles.integrantesContainer}>
+      <div className={styles.integrante}>
         <img src={integrante1} alt="Integrante 1" />
         <p>Angello Turano da Costa</p>
         <p>RM556511</p>
@@ -15,7 +15,7 @@ const Integrantes: React.FC = () => {
           Meu GitHub
         </a>
       </div>
-      <div className="integrante">
+      <div className={styles.integrante}>
         <img src={integrante2} alt="Integrante 2" />
         <p>Leonardo Kawachi</p>
         <p>RM558166</p>
@@ -23,7 +23,7 @@ const Integrantes: React.FC = () => {
           Meu GitHub
         </a>
       </div>
-      <div className="integrante">
+      <div className={styles.integrante}>
         <img src={integrante3} alt="Integrante 3" />
         <p>Victor Nieves Britto Medeiros</p>
         <p>RM554557</p>
@@ -36,3 +36,4 @@ const Integrantes: React.FC = () => {
 };
 
 export default Integrantes;
+

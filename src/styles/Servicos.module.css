@@ -1,0 +1,45 @@
+.servicosContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.servicosGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.servicoBox {
+  padding: 1.5rem;
+  color: #007bff;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.servicoBox:hover {
+  transform: scale(1.05);
+}
+
+.servicoBox.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.servicoBox h3 {
+  margin: 0;
+}
+
+.servicoBox p {
+  margin-top: 1rem;
+  font-size: 1rem;
+}

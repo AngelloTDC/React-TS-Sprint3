@@ -1,0 +1,47 @@
+
+.enderecosContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.enderecosColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.enderecoBox {
+  padding: 1.5rem;
+  color: #007bff;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.enderecoBox:hover {
+  transform: scale(1.05);
+}
+
+.enderecoBoxActive {
+  background-color: #007bff;
+  color: white;
+}
+
+.enderecoBox h3 {
+  margin: 0;
+}
+
+.enderecoBox p {
+  margin-top: 1rem;
+  font-size: 1rem;
+}

@@ -6,19 +6,19 @@
   padding: 1rem;
 }
 
-.navbar-logo a {
+.navbarLogo a {
   font-size: 32px;
   color: #fff;
   font-weight: 700;
 }
 
-.navbar-links {
+.navbarLinks {
   list-style: none;
   display: flex;
   gap: 1rem;
 }
 
-.navbar-links li {
+.navbarLinks li {
   margin: 0;
 }
 
@@ -41,6 +41,6 @@
   transition: .3s;
 }
 
-.navbar a:hover::before{
+.navbar a:hover::before {
   width: 100%;
 }

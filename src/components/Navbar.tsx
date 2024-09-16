@@ -1,14 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Navbar.css';
+import styles from '../styles/Navbar.module.css';
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="navbar">
-      <div className="navbar-logo">
+    <nav className={styles.navbar}>
+      <div className={styles.navbarLogo}>
         <Link to="/">Porto-AutoHelp</Link>
       </div>
-      <ul className="navbar-links">
+      <ul className={styles.navbarLinks}>
         <li>
           <Link to="/">Home</Link>
         </li>        
@@ -18,7 +18,6 @@ const Navbar: React.FC = () => {
         <li>
           <Link to="/servicos">Serviços</Link>
         </li>
-
         <li>
           <Link to="/enderecos">Endereços</Link>
         </li>        

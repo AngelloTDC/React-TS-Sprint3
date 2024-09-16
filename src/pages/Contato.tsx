@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Contato.css';
+import styles from '../styles/Contato.module.css';
 
 const Contato: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -25,10 +25,10 @@ const Contato: React.FC = () => {
   };
 
   return (
-    <div className="contato-container">
+    <div className={styles.contatoContainer}>
       <h1>Fale com a gente!</h1>
-      <form className="contato-form" onSubmit={handleSubmit}>
-        <div className="form-group">
+      <form className={styles.contatoForm} onSubmit={handleSubmit}>
+        <div className={styles.formGroup}>
           <label htmlFor="nome">Nome Completo</label>
           <input 
             type="text" 
@@ -40,7 +40,7 @@ const Contato: React.FC = () => {
           />
         </div>
 
-        <div className="form-group">
+        <div className={styles.formGroup}>
           <label htmlFor="email">Email</label>
           <input 
             type="email" 
@@ -52,7 +52,7 @@ const Contato: React.FC = () => {
           />
         </div>
 
-        <div className="form-group">
+        <div className={styles.formGroup}>
           <label htmlFor="telefone">Número de Telefone</label>
           <input 
             type="tel" 
@@ -64,7 +64,7 @@ const Contato: React.FC = () => {
           />
         </div>
 
-        <div className="form-group">
+        <div className={styles.formGroup}>
           <label htmlFor="mensagem">Motivo do Contato</label>
           <textarea 
             id="mensagem" 
@@ -75,9 +75,9 @@ const Contato: React.FC = () => {
           />
         </div>
 
-        <button type="submit" className="submit-button">Enviar</button>
+        <button type="submit" className={styles.submitButton}>Enviar</button>
 
-        {successMessage && <p className="success-message">{successMessage}</p>}
+        {successMessage && <p className={styles.successMessage}>{successMessage}</p>}
       </form>
     </div>
   );

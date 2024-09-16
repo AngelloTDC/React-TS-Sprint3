@@ -1,0 +1,34 @@
+.integrantes-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.integrante {
+  text-align: center;
+}
+
+.integrante img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20%;
+  margin-bottom: 1.5rem;
+}
+
+.integrante p {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.integrante a {
+  text-decoration: none;
+  color: #00f7ff;
+  font-size: 1rem;
+}
+
+.integrante a:hover {
+  text-decoration: underline;
+}

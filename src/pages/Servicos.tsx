@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Servicos.css';
+import styles from '../styles/Servicos.module.css';
 
 const servicesData = [
   { id: 1, title: 'Troca de Óleo', description: 'Manutenção regular do motor do seu veículo. A troca de óleo garante que seu motor funcione de maneira suave e eficiente, prolongando sua vida útil.' },
@@ -20,13 +20,13 @@ const Servicos: React.FC = () => {
   };
 
   return (
-    <div className="servicos-container">
-      <h1>Alugns dos nossos Serviços!</h1>
-      <div className="servicos-grid">
+    <div className={styles.servicosContainer}>
+      <h1>Alguns dos nossos Serviços!</h1>
+      <div className={styles.servicosGrid}>
         {servicesData.map((service) => (
           <div 
             key={service.id} 
-            className={`servico-box ${activeService === service.id ? 'active' : ''}`} 
+            className={`${styles.servicoBox} ${activeService === service.id ? styles.active : ''}`} 
             onClick={() => toggleService(service.id)}
           >
             <h3>{service.title}</h3>
@@ -39,3 +39,4 @@ const Servicos: React.FC = () => {
 };
 
 export default Servicos;
+

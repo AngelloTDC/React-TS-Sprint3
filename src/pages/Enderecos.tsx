@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Enderecos.css';
+import styles from '../styles/Enderecos.module.css';
 
 const enderecosData = [
   { id: 1, title: 'Unidade Paulista', description: 'Edifício Paulista - Av. Paulista, 1106 - 7º andar' },
@@ -16,13 +16,13 @@ const Enderecos: React.FC = () => {
   };
 
   return (
-    <div className="enderecos-container">
+    <div className={styles.enderecosContainer}>
       <h1>Nossos Endereços!</h1>
-      <div className="enderecos-column">
+      <div className={styles.enderecosColumn}>
         {enderecosData.map((endereco) => (
           <div 
             key={endereco.id} 
-            className={`endereco-box ${activeEndereco === endereco.id ? 'active' : ''}`} 
+            className={`${styles.enderecoBox} ${activeEndereco === endereco.id ? styles.active : ''}`} 
             onClick={() => toggleEndereco(endereco.id)}
           >
             <h3>{endereco.title}</h3>

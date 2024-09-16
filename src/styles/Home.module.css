@@ -1,37 +1,38 @@
-.home-container {
+
+.homeContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
 }
 
-.home-text {
+.homeText {
   width: 50%;
 }
 
-.home-text h1 {
+.homeText h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
   text-align: center;
   padding-left: 30%;
-  padding-top: 10%; 
+  padding-top: 10%;
 }
 
-.home-text p {
+.homeText p {
   font-size: 1.2rem;
   text-align: center;
   padding-left: 30%;
   padding-top: 2%;
 }
 
-.home-image {
+.homeImage {
   width: 100%;
   display: flex;
   justify-content: flex-end;
   padding-right: 10%;
 }
 
-.home-image img {
+.homeImage img {
   max-width: 100%;
   height: auto;
 }
