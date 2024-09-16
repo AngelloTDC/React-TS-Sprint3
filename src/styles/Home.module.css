@@ -1,4 +1,3 @@
-
 .homeContainer {
   display: flex;
   justify-content: space-between;
@@ -36,3 +35,31 @@
   max-width: 100%;
   height: auto;
 }
+
+@media (max-width: 768px) {
+  .homeContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .homeText {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .homeText h1 {
+    font-size: 2rem;
+    padding-top: 5%;
+  }
+
+  .homeText p {
+    font-size: 1rem;
+    padding-top: 2%;
+  }
+
+  .homeImage {
+    display: none;
+  }
+}
+
