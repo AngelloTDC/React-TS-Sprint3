@@ -22,7 +22,7 @@ const Enderecos: React.FC = () => {
         {enderecosData.map((endereco) => (
           <div 
             key={endereco.id} 
-            className={`${styles.enderecoBox} ${activeEndereco === endereco.id ? styles.active : ''}`} 
+            className={`${styles.enderecoBox} ${activeEndereco === endereco.id ? styles.enderecoBoxActive : ''}`} 
             onClick={() => toggleEndereco(endereco.id)}
           >
             <h3>{endereco.title}</h3>
