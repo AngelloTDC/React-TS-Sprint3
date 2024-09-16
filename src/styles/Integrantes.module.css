@@ -1,5 +1,7 @@
-.integrantes-container {
+
+.integrantesContainer {
   display: flex;
+  flex-direction: row; 
   justify-content: center;
   align-items: center;
   gap: 2rem;
@@ -32,3 +34,5 @@
 .integrante a:hover {
   text-decoration: underline;
 }
+
+
