@@ -9,38 +9,3 @@
   color: #fff;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: transparent;
-  padding: 1rem;
-}
-
-.navbarLogo a {
-  color: rgb(0, 255, 255);
-  text-decoration: none;
-  font-size: 2.2rem;
-  font-weight: bold;
-}
-
-.navbarLinks {
-  list-style: none;
-  display: flex;
-  gap: 1rem;
-  padding-right: 5%;
-}
-
-.navbarLinks li {
-  margin: 0;
-}
-
-.navbarLinks a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.2rem;
-}
-
-.navbarLinks a:hover {
-  color: #00f7ff;
-}
