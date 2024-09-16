@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
     <footer className="footer">
       <div className="footer-content">
         <p>Visite o nosso trabalho no</p>
-        <a href="https://github.com/AngelloTDC/Sprint-Challenge" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/AngelloTDC/React-TS-Sprint3" target="_blank" rel="noopener noreferrer">
           Git-Hub!
         </a>
         <p>Visite o site oficial </p>
