@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
+  padding: 1.5rem;
 }
 
 .homeText {
@@ -20,7 +20,7 @@
 
 .homeText p {
   font-size: 1.2rem;
-  text-align: center;
+  text-align: justify;
   padding-left: 30%;
   padding-top: 2%;
 }
