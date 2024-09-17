@@ -1,0 +1,14 @@
+-INTEGRANTES: 
+Angello Turano da Costa - RM556511
+Leonardo Kawachi - RM558166
+Victor Nieves Britto Medeiros - RM554557
+
+-ACESSO AO FIGMA:
+login: trabalhos.turano@gmail.com
+senha: Trabalhos@123
+
+-GIT:
+https://github.com/AngelloTDC/React-TS-Sprint3
+
+-VIDEO YOUTUBE: *POR FAVOR VEJA, ESTÁ BEM FEITO! :)
+link: https://youtu.be/bWPRgscczT0
